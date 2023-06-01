@@ -1,0 +1,300 @@
+.notifcenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notifcontainer {
+        display: flex;
+        box-shadow: 0px 0px 5px 0px grey;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+}
+.notifcontainer:hover {
+    box-shadow: 0px 0px 5px 0px rgb(225, 1, 1);
+}
+.notifimgtitle {
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+.notifimage {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+}
+.notifimage img {
+    width: 100%;
+    height: 100%;
+}
+.mininotifcontainer {
+    position: relative;
+    display: inherit;
+    max-height: inherit;
+    min-height: inherit;
+    height: inherit;
+    width: inherit;
+    min-width: inherit;
+    max-width: inherit;
+}
+.onenotif {
+    padding: 0;
+    position: relative;
+    display: block;
+    border-right-style: solid;
+    border-left-width: 0;
+    background-color: transparent;
+    border-top-right-radius: 8px;
+    min-width: 0;
+    border-right-width: 0;
+    margin: 0 0 0 0;
+    border-bottom-left-radius: 8px;
+    box-sizing: border-box;
+    border-top-width: 0;
+    border-bottom-right-radius: 8px;
+    min-height: 0;
+    border-left-style: solid;
+    border-bottom-width: 0;
+    border-bottom-style: solid;
+    border-top-left-radius: 8px;
+    z-index: 0;
+    border-top-style: solid;
+    cursor: pointer;
+    text-decoration: none;
+    touch-action: manipulation;
+    border-color: rgb(0, 0, 0, 0.4);
+    outline-style: none;
+    -webkit-tap-highlight-color: transparent;
+    text-align: inherit;
+    list-style: none;
+    outline: none;
+    color: transparent;
+}
+.onenotif:hover {
+    background-color: rgba(70, 69, 69, 0.096);
+    color: transparent;
+}
+.onenotif1 {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-direction: row;
+    position: relative;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    min-width: 0;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    z-index: 0;
+    min-height: 44px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    text-align: inherit;
+    list-style: none;
+}
+.onenotif2 {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    margin-right: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-self: flex-start;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    text-align: inherit;
+    list-style: none;
+}
+.onenotif3 {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    vertical-align: bottom;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    text-align: inherit;
+    list-style: none;
+}
+.onenotif3 img {
+    height: 56px;
+    width: 56px;
+    vertical-align: bottom;
+
+}
+.onenotif4 {
+    padding-left: 0;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    flex-direction: row;
+    position: relative;
+    flex-grow: 1;
+    padding-bottom: 0;
+    border-right-style: solid;
+    flex-shrink: 1;
+    border-left-width: 0;
+    min-width: 0;
+    margin-top: 0;
+    border-right-width: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border-top-width: 0;
+    min-height: 0;
+    border-left-style: solid;
+    justify-content: space-between;
+    border-bottom-width: 0;
+    border-bottom-style: solid;
+    margin-left: 0;
+    z-index: 0;
+    border-top-style: solid;
+    margin-right: 0;
+    align-self: stretch;
+    -webkit-tap-highlight-color: transparent;
+    text-align: inherit;
+}
+.onenotif5 {
+    padding-left: 0;
+    flex-direction: column;
+    display: flex;
+    padding-right: 0;
+    position: relative;
+    flex-grow: 1;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-right-style: solid;
+    flex-shrink: 1;
+    border-left-width: 0;
+    min-width: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-right-width: 0;
+    box-sizing: border-box;
+    min-height: 0;
+    border-left-style: solid;
+    justify-content: space-between;
+    border-bottom-width: 0;
+    border-bottom-style: solid;
+    margin-left: 0;
+    z-index: 0;
+    border-top-style: solid;
+    margin-right: 0;
+    flex-basis: 0px;
+}
+.onenotif6 {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: -8px;
+    margin-top: -8px;
+}
+.onenotif7 {
+    text-align: left;
+    display: block;
+    color: #b0b3b8;
+    min-width: 0;
+    max-width: 100%;
+    font-size: .8125rem;
+    word-wrap: break-word;
+    line-height: 1.3333;
+    font-weight: 400;
+    word-break: break-word;
+}
+.onenotif7notread {
+    text-align: left;
+    display: block;
+    color: #0c0c0c;
+    min-width: 0;
+    max-width: 100%;
+    font-size: .8125rem;
+    word-wrap: break-word;
+    line-height: 1.3333;
+    font-weight:600;
+    word-break: break-word;
+}
+.onenotif8 {
+    text-align: left;
+    display: block;
+    color: #8A8D91;
+    min-width: 0;
+    max-width: 100%;
+    font-size: .8125rem;
+    word-wrap: break-word;
+    font-weight: 400;
+    line-height: 1.2308;
+    word-break: break-word;
+}
+.onenotif9 {
+    position: relative;
+    display: block;
+    padding-bottom: 1px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.onenotif10 {
+    color: #b0b3b8;
+    min-width: 0;
+    max-width: 100%;
+    font-size: .8125rem;
+    word-wrap: break-word;
+    font-weight: 400;
+    line-height: 1.2308;
+    word-break: break-word;
+    /*white-space: nowrap;*/
+    text-align: left;
+}
+.onenotif10notread {
+    color: #0c0c0c;
+    min-width: 0;
+    max-width: 100%;
+    font-size: .8125rem;
+    word-wrap: break-word;
+    font-weight: 600;
+    line-height: 1.2308;
+    word-break: break-word;
+    /*white-space: nowrap;*/
+    text-align: left;
+}
+.onenotif11 {
+    right: 0;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    border-top-right-radius: inherit;
+    background-color: rgb(225, 255, 255, 0.1);
+    border-top-left-radius: inherit;
+    transition-duration: 100ms;
+    border-bottom-right-radius: inherit;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    border-bottom-left-radius: inherit;
+}
+.notifmiiniimage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.notifminiimage img {
+width: 100%;
+height: 100%;
+}
